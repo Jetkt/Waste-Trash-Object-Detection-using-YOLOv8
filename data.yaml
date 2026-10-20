@@ -1,0 +1,15 @@
+path: E:/PK2/sampah yolo.v1i.yolov8
+
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 9
+names: ['biological', 'cardboard', 'clothes', 'glass', 'metal', 'paper', 'plastic', 'shoes', 'trash']
+
+roboflow:
+  workspace: yolo-sampah
+  project: sampah-yolo
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolo-sampah/sampah-yolo/dataset/1
